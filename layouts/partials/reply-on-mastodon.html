@@ -1,0 +1,5 @@
+{{ $link_text := or $.Site.Params.reply_on_mastodon_text "🐘 Reply on Mastodon" }}
+
+{{ if isset .Params.mastodon "id" }}
+<a href="https://{{ .Params.mastodon.hostname }}/@{{ .Params.mastodon.username }}/{{ .Params.mastodon.id }}" class="reply-on-mastodon">{{ $link_text }}</a>
+{{ end }}

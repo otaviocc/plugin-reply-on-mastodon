@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "title": "Reply on Mastodon",
+    "description": "Encourage your readers to engage with your blogs post on Mastodon.",
+    "includes": [
+        "reply-on-mastodon.html"
+    ],
+    "fields": [
+        {
+            "field": "params.reply_on_mastodon_text",
+            "label": "Link text",
+            "placeholder": "🐘 Reply on Mastodon"
+        }
+    ]
+}
